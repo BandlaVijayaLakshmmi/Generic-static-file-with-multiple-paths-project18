@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/how-can-i-help-you-18399693.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h1{
+    color:whitesmoke;
+    font-style: italic;
+}
+#h2{
+    color:white;
+    text-align: center;
+    font-style:oblique;
+}
+p{
+    text-align: center;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-align: center;
+    font-size:150%;
+    text-decoration: none;
+    font-style:italic ;
+    color: rgb(78, 61, 41);
+    border: solid 3px rgb(76, 178, 191);
+    background-color:wheat ;
+    position: relative;
+    left: 45%;
+    border-radius: 25%;
+
+}

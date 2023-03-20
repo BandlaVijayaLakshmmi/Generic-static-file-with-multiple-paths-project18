@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <img src="{% static 'images/free-website-background-01.jpg'%}" alt="" id="img1">
+    <h1 id="h1">WELCOME TO OUR WEBSITE</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Quas distinctio fuga optio dolorum quod. <br>Maiores sequi ea vel error quaerat. <br>Saepe repudiandae atque iste cum voluptatibus temporibus ex veniam minus.<br>
+    Explicabo modi provident voluptate laudantium minima!<br> Sed sint repellat tempora minima nulla nemo,<br> error sequi obcaecati incidunt cumque illo repellendus aperiam, <br>nobis magni esse. Labore, quis omnis! Rerum, <br>soluta nobis!</p>
+    <div class="d1">
+        <h1>Apply Now</h1>  
+        <form action="">
+            <div id="d2"><input type="text" placeholder="Enter your Name"></div>
+            <div id="d3"><input type="email" placeholder="abc@gmail.com"></div>
+            <div id="d4"><input type="text" placeholder="user name"></div>
+            <div id="d5"><input type="password" placeholder="Enter strong password"></div>
+            <div id="d6"><input type="number" placeholder="+91-000000000"></div>
+            <div id="d7"><input type="submit" value="START NOW" id="n1"></div>
+        </form>   
+    </div> 
+    <a href="{% url 'form2' %}" id="a1">CAREER</a>
+    <a href="{% url 'form3' %}" id="A">ABOUT</a>
+    <a href="{% url 'form4' %}"  id="B">HELP</a>
+</body>
+</html>

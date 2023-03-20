@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body>
+    <marquee scrollamount="10"><h1>CAREER</h1></marquee>
+    <center>
+    <pre>Choosing a career can help you select the right education and skills you need to obtain to support that career. <br>Making careful and well-thought-out decisions regarding your career can increase your chance of success. Choosing<br> the right career can take time and research. In this article, we explore in-depth what a career is, share different,<br> kinds of career paths, plus offer some tips to help you find the right career.</pre></center>
+    <img src="{% static   'images/employee.jpg'%}" alt="" id="m1">
+    <img src="{% static 'images/employee2.jpg'%}" id="m2">
+    <a href="{% url 'form1' %}" id="a1">HOME PAGE</a>
+</body>
+</html>
